@@ -1,0 +1,30 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - Password Hashing.\r - Sessions\r - Cookies",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.10",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skooger/node-auth1-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skooger/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/skooger/node-auth1-project#readme"
+}
